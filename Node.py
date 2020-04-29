@@ -19,6 +19,9 @@ class Node:
     def setleft(self, r):
         self.__left = r
 
+    def __str__(self):
+        return self.getval()
+
 if __name__ == '__main__':
     n = Node(1, 24, 5)
     no = Node(24, 36, 5)
